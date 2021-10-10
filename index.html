@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="eprojectApp" >
+<head>
+    <title>TASHA</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+ 
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/52e4d46eac.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+       
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Cookware</a>
+                        <ul class="sub-menu">
+                            <li><a href="#!/cooking-pots">-Cooking Pots</a></li>
+                            <li><a href="#!/cooking-pans">-Cooking Pans</a></li>
+                            <li><a href="#!/frying-pans">-Frying Pans</a></li>
+                            <li><a href="#!/cookware-sets">-Cookware Sets</a></li>
+                            <li><a href="#!/handis">-Handis</a></li>
+                            <li><a href="#!/kadais">-Kadais (Karahi)</a></li>
+                            <li><a href="#!/grill-pans">-Grill Pans</a></li>
+                            <li><a href="#!/tawas">-Tawas</a></li>
+                            <li><a href="#!/egg-poachers">-Egg Poachers</a></li>
+                            <li><a href="#!/steamers">-Steamers</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Refrigeration</a>
+                        <ul class="sub-menu">
+                            <li><a href="#!/freezers">-Freezers</a></li>
+                            <li><a href="#!/refrigerators">-Refrigerators</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Appliances</a>
+                        <ul class="sub-menu">
+                            <li><a href="#!/blenders">-Blenders</a></li>
+                            <li><a href="#!/bread-makers">-Bread Makers</a></li>
+                            <li><a href="#!/coffee-makers">-Coffee Makers</a></li>
+                            <li><a href="#!/ice-cream">-Ice Cream & Ice Makers</a></li>
+                            <li><a href="#!/electric-kettles">-Electric Kettles</a></li>
+                            <li><a href="#!/food-choppers">-Food Choppers</a></li>
+                            <li><a href="#!/toasters">-Toasters</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Food Storage</a>
+                        <ul class="sub-menu">
+                            <li><a href="#!/flask">-Flask</a></li>
+                            <li><a href="#!/spice-jars">-Spice Jars</a></li>
+                            <li><a href="#!/storage-bags">-Storage Bags</a></li>
+                            <li><a href="#!/lunch-boxes">-Lunch Boxes</a></li>
+                            <li><a href="#!/vacuum-bottles">-Vacuum Bottles</a></li>
+                        </ul>
+                    </li>
+                    <a href="index.html">
+                        <img src="Img/logo.png" alt="tasha.com">
+                    </a>
+                    <li><a href="#!/knives">Knives & Tools</a></li>
+                    <li><a href="#!/accessories">Other Accessories</a></li>
+                    <li><a href="#">Support</a>
+                        <ul class="sub-menu">
+                            <li><a href="#!/tips">-Expert Tips</a></li>
+                            <li><a href="#!/complain">-Register Complain</a></li>
+                            <li><a href="#!/feedback">-Feedback</a></li>
+                            <li><a href="#!/contact">-Contact</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        
+    </header>
+    <!--Slide-->
+    <div>
+        <ul class="slides">
+            <input type="radio" name="radio-btn" id="img-1" checked />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="Img/slide3.jpg" />
+                </div>
+                <div class="nav">
+                    <label for="img-6" class="prev">&#x2039;</label>
+                    <label for="img-2" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-2" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="Img/slide4.jpg" />
+                </div>
+                <div class="nav">
+                    <label for="img-1" class="prev">&#x2039;</label>
+                    <label for="img-3" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-3" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="Img/slide5.jpg" />
+                </div>
+                <div class="nav">
+                    <label for="img-2" class="prev">&#x2039;</label>
+                    <label for="img-4" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-4" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="Img/slide6.jpg" />
+                </div>
+                <div class="nav">
+                    <label for="img-3" class="prev">&#x2039;</label>
+                    <label for="img-5" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-5" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="Img/slide 1.jpg" />
+                </div>
+                <div class="nav">
+                    <label for="img-4" class="prev">&#x2039;</label>
+                    <label for="img-6" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-6" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="Img/slide 2.jpg" />
+                </div>
+                <div class="nav">
+                    <label for="img-5" class="prev">&#x2039;</label>
+                    <label for="img-7" class="next">&#x203a;</label>
+                </div>
+            </li>
+            <input type="radio" name="radio-btn" id="img-7" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="Img/slide 7.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-5" class="prev">&#x2039;</label>
+                    <label for="img-1" class="next">&#x203a;</label>
+                </div>
+            </li>
+
+            <li class="nav-dots">
+                <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                <label for="img-7" class="nav-dot" id="img-dot-7"></label>
+            </li>
+        </ul>
+    </div>
+    <!--end slide-->
+    <!--Banner-->
+    <div class="banner">
+        <div id="bannerleft">
+            <a><img src="Img/banner6.jpg"></a>
+            <a><img src="Img/banner10.jpg"></a>
+            <a><img src="Img/banner9.jpg"></a>
+        </div>
+        <div id="bannerright">
+            <a><img src="Img/banner7.jpg"></a>
+        </div>
+    </div>
+    <!--End Banner-->
+    <!--Product-->
+    <ng-view></ng-view>
+    <!--End Product-->
+    <!--Banner 2-->
+
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__addr">
+
+            <img src="Img/logo.png">
+
+        </div>
+
+        <ul class="footer__nav">
+            <li class="nav__item">
+                <h2 class="nav__title">Contact</h2>
+
+                <ul class="nav__ul">
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span>590 Cách Mạng Tháng Tám,
+                            Phường 11, Quận 3,
+                            TP HCM
+                        </span>
+                    </li>
+
+                    <li>
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <span>tasha@gmail.com</span>
+                    </li>
+
+                    <li>
+                        <span><i class="fa fa-phone-square" aria-hidden="true"></i></span>
+                        <span>012-345-6789</span>
+                    </li>
+                </ul>
+            </li>
+
+
+
+            <li class="nav__item">
+                <h2 class="nav__title">Support</h2>
+
+                <ul class="nav__ul">
+                    <li>
+                        <a href="#!/complain">Register Complain</a>
+                    </li>
+
+                    <li>
+                        <a href="#!/feedback">Feedback</a>
+                    </li>
+
+                    <li>
+                        <a href="#!/contact">Contact</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="legal">
+            <p>&copy; 2019 Tasha. All rights reserved.</p>
+
+            <div class="legal__links">
+                <span>Wellcome <span class="heart">♥</span> to Tasha</span>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+   
+    <script src="app.js"></script>
+    <script src="catalog/catalog.js"></script>
+    <script src="contact/contact.js"></script>
+    <script src="tips/tips.js"></script>
+    <script src="feedback/feedback.js"></script>
+    <script src="complain/complain.js"></script>
+    <script src="cooking-pots/cooking-pots.js"></script>
+    <script src="cooking-pans/cooking-pans.js"></script>
+    <script src="frying-pans/frying-pans.js"></script>
+    <script src="cookware-sets/cookware-sets.js"></script>
+    <script src="handis/handis.js"></script>
+    <script src="kadais/kadais.js"></script>
+    <script src="grill-pans/grill-pans.js"></script>
+    <script src="tawas/tawas.js"></script>
+    <script src="egg-poachers/egg-poachers.js"></script>
+    <script src="steamers/steamers.js"></script>
+    <script src="freezers/freezers.js"></script>
+    <script src="refrigerators/refrigerators.js"></script>
+    <script src="flask/flask.js"></script>
+    <script src="spice-jars/spice-jars.js"></script>
+    <script src="storage-bags/storage-bags.js"></script>
+    <script src="lunch-boxes/lunch-boxes.js"></script>
+    <script src="vacuum-bottles/vacuum-bottles.js"></script>
+    <script src="blenders/blenders.js"></script>
+    <script src="bread-makers/bread-makers.js"></script>
+    <script src="coffee-makers/coffee-makers.js"></script>
+    <script src="ice-cream/ice-cream.js"></script>
+    <script src="electric-kettles/electric-kettles.js"></script>
+    <script src="food-choppers/food-choppers.js"></script>
+    <script src="toasters/toasters.js"></script>
+    <script src="products/products.js"></script>
+    <script src="knives/knives.js"></script>
+    <script src="accessories/accessories.js"></script>
+    <script src="accessorie/accessorie.js"></script>
+    <script src="blender/blender.js"></script>
+    <script src="bread-maker/bread-maker.js"></script>
+    <script src="coffee-maker/coffee-maker.js"></script>
+    <script src="cooking-pan/cooking-pan.js"></script>
+    <script src="cooking-pot/cooking-pot.js"></script>
+    <script src="cookware-set/cookware-set.js"></script>
+    <script src="egg-poacher/egg-poacher.js"></script>
+    <script src="electric-kettle/electric-kettle.js"></script>
+    <script src="flaskdetail/flaskdetail.js"></script>
+    <script src="food-chopper/food-chopper.js"></script>
+    <script src="freezer/freezer.js"></script>
+    <script src="frying-pan/frying-pan.js"></script>
+    <script src="grill-pan/grill-pan.js"></script>
+    <script src="handi/handi.js"></script>
+    <script src="ice-creamdt/ice-creamdt.js"></script>
+    <script src="kadai/kadai.js"></script>
+    <script src="knive/knive.js"></script>
+    <script src="lunch-boxe/lunch-boxe.js"></script>
+    <script src="refrigerator/refrigerator.js"></script>
+    <script src="spice-jar/spice-jar.js"></script>
+    <script src="steamer/steamer.js"></script>
+    <script src="storage-bag/storage-bag.js"></script>
+    <script src="tawa/tawa.js"></script>
+    <script src="toaster/toaster.js"></script>
+    <script src="vacuum-bottle/vacuum-bottle.js"></script>
+    
+</body>
+
+
+</html>
