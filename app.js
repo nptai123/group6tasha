@@ -22,7 +22,7 @@ angular.module("eprojectApp",[
     'eprojectApp.flask',
     'eprojectApp.spice-jars',
     'eprojectApp.storage-bags',
-    'eprojectApp.lunch-boxes',
+    'eprojectApp.lunchboxes',
     'eprojectApp.vacuum-bottles',
     'eprojectApp.blenders',
     'eprojectApp.bread-makers',
