@@ -1,0 +1,44 @@
+[
+    {
+        "tenhang":"Amazon Basics 2 Slice, Extra-Wide Slot Toaster with 6 Shade Settings, Black",
+        "id":141,
+        "giatien":"22.99",
+        "hinhanh":"Img/Appliances/Toaster/Toaster 1.jpg",
+        "link":"https://www.youtube.com/watch?v=oabj4w3zm84"
+    },
+    {
+        "tenhang":"CRUX 4-Slice Toaster with Extra Wide Slots & 6 Setting Shade Control, Black Stainless Steel",
+        "id":142,
+        "giatien":"$52.99",
+        "hinhanh":"Img/Appliances/Toaster/Toaster 2.jpg",
+        "link":"https://www.youtube.com/watch?v=95SH-DdhYBQ"
+    },
+    {
+        "tenhang":"CRUX 4-Slice Toaster with Extra Wide Slots & 6 Setting Shade Control, Black Stainless Steel",
+        "id":143,
+        "giatien":"$39.99",
+        "hinhanh":"Img/Appliances/Toaster/Toaster 3.jpg",
+        "link":"https://www.youtube.com/watch?v=95SH-DdhYBQ"
+    },
+    {
+        "tenhang":"Willz 2-Slice Extra Wide Slot Toaster with Shade Selector, Auto Shut-off and Cancel Functions, Hinged Crumb Tray, Black",
+        "id":144,
+        "giatien":"$24.99",
+        "hinhanh":"Img/Appliances/Toaster/Toaster 4.jpg",
+        "link":"https://www.youtube.com/watch?v=_iYi9dK_I1Q"
+    },
+    {
+        "tenhang":"Oster 2-Slice Toaster with Advanced Toast Technology, Stainless Steel",
+        "id":145,
+        "giatien":"$29.99",
+        "hinhanh":"Img/Appliances/Toaster/Toaster 5.jpg",
+        "link":"https://www.youtube.com/watch?v=kfvh1vkqx88"
+    },
+    {
+        "tenhang":"Cuisinart CPT-122 2-Slice Compact Plastic Toaster (White)",
+        "id":146,
+        "giatien":"$29.95",
+        "hinhanh":"Img/Appliances/Toaster/Toaster 6.jpg",
+        "link":"https://www.youtube.com/watch?v=95SH-DdhYBQ"
+    }
+]

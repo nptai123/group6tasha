@@ -1,0 +1,59 @@
+[
+    {
+        "tenhang": "Flask Lock&Lock 450ml pink",
+        "id":1,
+        "giatien": "$12.69",
+        "hinhanh": "img/pro2.jpg",
+        "link":"https://www.youtube.com/watch?v=1Uff0cCX4nM"
+    },
+    {
+        "tenhang": "Premium Non-Stick Pan",
+        "id":2,
+        "giatien": "$4.59",
+        "hinhanh": "img/pro4.jpg",
+        "link":"https://www.youtube.com/watch?v=nPU-mZMKab0"
+        
+    },
+    {
+        "tenhang": "Bread Makers Petrus",
+        "id":3,
+        "giatien": "$175.72",
+        "hinhanh": "img/pro7.jpg",
+        "link":"https://www.youtube.com/watch?v=KKH22ywyy6k"
+    },
+    {
+        "tenhang": "Toasters Mini Loyola",
+        "id":4,
+        "giatien": "$30.70",
+        "hinhanh": "img/pro8.jpg",
+        "link":"https://www.youtube.com/watch?v=Vp6L3LPZ7wk"
+    },
+    {
+        "tenhang": "Cooking Utensils With Wooden Handles",
+        "id":5,
+        "giatien": "$2.23",
+        "hinhanh": "img/pro3.jpg",
+        "link":"https://www.youtube.com/watch?v=m7uB8kWmuwE"
+    },
+    {
+        "tenhang": " Utopia Kitchen 2 Quart Nonstick Saucepan with Glass Lid ",
+        "id":6,
+        "giatien": "$10.95",
+        "hinhanh": "img/pro5.jpg",
+        "link":"https://www.youtube.com/watch?v=qQoYG_sweLo"
+    },
+    {
+        "tenhang": "Coffee Makers Mini",
+        "id":7,
+        "giatien": "$24.96",
+        "hinhanh": "img/pro6.jpg",
+        "link":"https://www.youtube.com/watch?v=BabJUgXHIX8"
+    },
+    {
+        "tenhang": "Ice-Cream & Sorbet Makers Bear ",
+        "id":8,
+        "giatien": "$36.41",
+        "hinhanh": "img/pro9.jpg",
+        "link":"https://www.youtube.com/watch?v=fWWFt4PvAZk"
+    }
+]

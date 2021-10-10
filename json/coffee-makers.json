@@ -1,0 +1,45 @@
+[
+    {
+        "tenhang":"Black+Decker CM1160W-1 CM1160W 12-Cup Programmable Coffeemaker, White/Stainless Steel",
+        "id":21,
+        "giatien":"$42.85",
+        "hinhanh":"Img/Appliances/Coffee Maker/coffee 1.jpg",
+        "link":"https://www.youtube.com/watch?v=i2chxDDPDis"
+    },
+    {
+        "tenhang":"Calphalon 14-Cup Programmable Coffee Maker | Stainless Steel Drip Coffee Maker with Glass Carafe, High Performance Heating",
+        "id":22,
+        "giatien":"$99.99",
+        "hinhanh":"Img/Appliances/Coffee Maker/coffee 2.jpg",
+        "link":"https://www.youtube.com/watch?v=4aOyppYV0zU"
+    },
+    {
+        "tenhang":"BLACK+DECKER Single Serve Coffeemaker, Black",
+        "id":23,
+        "giatien":"$27.38",
+        "hinhanh":"Img/Appliances/Coffee Maker/coffee 3.jpg",
+        "link":"https://www.youtube.com/watch?v=xXQU9q95Zhk"
+    },
+    {
+        "tenhang":"Hamilton Beach 2-Way Brewer Coffee Maker, Single-Serve and 12-Cup Pot, Stainless Steel",
+        "id":24,
+        "giatien":"$69.99",
+        "hinhanh":"Img/Appliances/Coffee Maker/coffee 4.jpg",
+        "link":"https://www.youtube.com/watch?v=vuzl4nIOOfI"
+    },
+    {
+        "tenhang":"Keurig K-Select Coffee Maker, Single Serve K-Cup Pod Coffee Brewer, With Strength Control and Hot Water On Demand, Vintage Red",
+        "id":25,
+        "giatien":"$99.99",
+        "hinhanh":"Img/Appliances/Coffee Maker/coffee 5.jpg",
+        "link":"https://www.youtube.com/watch?v=vZ6eY172GnY"
+    },
+    {
+        "tenhang":"Keurig K-Duo Coffee Maker, Single Serve and 12-Cup Carafe Drip Coffee Brewer, Compatible with K-Cup Pods and Ground Coffee, Black",
+        "id":26,
+        "giatien":"$139.00",
+        "hinhanh":"Img/Appliances/Coffee Maker/coffee 6.jpg",
+        "link":"https://www.youtube.com/watch?v=YtXqo1mBWjM"
+    }
+
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "tenhang":"Amazon Basics 2 Pound Non-Stick Bread Making Machine, White",
+        "id":15,
+        "giatien":"$59.99",
+        "hinhanh":"Img/Appliances/Bread Makers/Bread 1.jpg",
+        "link":"https://www.youtube.com/watch?v=370aar5MUy0"
+    },
+    {
+        "tenhang":"Hamilton Beach Bread Maker Machine, Digital, Programmable, 12 Settings + Gluten Free, Dishwasher Safe Pan + Kneading Paddle, 2 lb Capacity, Black",
+        "id":16,
+        "giatien":"$74.99",
+        "hinhanh":"Img/Appliances/Bread Makers/Bread 2.jpg",
+        "link":"https://www.youtube.com/watch?v=GPngyjp80j8"
+    },
+    {
+        "tenhang":"Cuisinart Bread Maker, Up To 2lb Loaf, New Compact Automatic",
+        "id":17,
+        "giatien":"$139.20",
+        "hinhanh":"Img/Appliances/Bread Makers/Bread 3.jpg",
+        "link":"https://www.youtube.com/watch?v=NrBhhYh-hNo"
+    },
+    {
+        "tenhang":"Bread Machines with Gluten Free Setting, Auto Fruit Nut Dispenser, Ceramic Pan& Touch Panel, 2LB Loaf 3 Crust Colors, Brushed Stainless/Black",
+        "id":18,
+        "giatien":"$75.49",
+        "hinhanh":"Img/Appliances/Bread Makers/Bread 4.jpg",
+        "link":"https://www.youtube.com/watch?v=BPf1ClIS7pg"
+    },
+    {
+        "tenhang":"Bread Maker with Gluten Free, Non-stick Ceramic Pan, 3 Loaf Sizes 3 Crust Colors, 15H Delay Start & 1H Keep Warm, 300 Recipes & Oven Mitt, 650W",
+        "id":19,
+        "giatien":"$89.98",
+        "hinhanh":"Img/Appliances/Bread Makers/Bread 5.jpg",
+        "link":"https://www.youtube.com/watch?v=d5Ekg74iKBQ"
+    },
+    {
+        "tenhang":"West Bend Hi-Rise Bread Maker Programmable Horizontal Dual Blade with 12 Programs Including Gluten Free, 3-Pound, Gray",
+        "id":20,
+        "giatien":"$87.99",
+        "hinhanh":"Img/Appliances/Bread Makers/Bread 6.jpg",
+        "link":"https://www.youtube.com/watch?v=oyWR_BEBKBE"
+    } 
+]
