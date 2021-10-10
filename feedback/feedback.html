@@ -1,0 +1,59 @@
+<section>
+<div class="container">
+    <div class="containerForm" ng-app="feedbackApp" ng-controller="feedbackCtrl">
+        <h2>FEEDBACK</h2>
+        <hr>
+        <p>Please write your feedback below:</p>    
+        <h3>How do you rate your cookware experience?</h3>
+        <form class="formBox" name="Ffrm">
+           
+               <label for="">Rate us:</label>
+              Bad <input type="radio" name="rdrate" id="rdBad" checked value="Bad">
+            Average <input type="radio" name="rdrate" id="rdAverage" checked value="Average"> 
+             Good <input type="radio" name="rdrate" id="rdGood" checked value="Good">
+           
+            <div class="form-group">
+               <input type="text" class="form-control" name="username"  placeholder="Full name" autocomplete="off" required />       
+               
+            </div>
+            <div class="form-group">  
+               <input type="number" class="form-control" name="userage"  placeholder="Age" autocomplete="off" required />
+            
+             </div>
+          <div class="form-group">
+          <input type="email" class="form-control" ng-model="user.email" name="email"
+          placeholder=" Email Address" autocomplete="off" required>
+          </div>
+          <div class="form-group">
+           
+            <input type="number" class="form-control" name="telephone" placeholder="Telephone" autocomplete="off" required />
+            </div>
+    
+          <div class="inputBox w100">
+            <textarea name="" placeholder="Message" required></textarea>
+            
+          </div>
+          <div class="inputBox w100">
+            <input ng-disabled="Ffrm.$invalid" class="btn btn-warning" onclick="alert('Send Message Success')" type="submit" ng-click="call()" value="Submit">
+            <input type="reset" value="reset">
+      
+           </div>
+         </form>
+        
+     </div>
+</div>
+<script>
+   var feedback = angular.module("feedbackApp", []);
+
+/* Show Submit Values */  
+contact.controller("feedbackCtrl", function ($scope) {
+ $scope.submit_success = false;
+ $scope.call = function () {
+     $scope.submit_success = true;
+ }
+}
+
+);
+</script>
+
+</section>    

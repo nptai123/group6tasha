@@ -1,0 +1,63 @@
+<section>
+    <div class="container">
+        <div class="containerForm" ng-app="complainApp" ng-controller="complainCtrl">
+            <h2>REGISTER COMPLAIN</h2>
+            <hr>
+           
+             <h3>We are here to assist you!</h3>
+             <p>Please complete the form below for your complains.</p> 
+             <form class="formBox" name="Cofrm">
+        
+           
+             <div class="form-group">
+               <input type="text" class="form-control" name="username"  placeholder="Full name" autocomplete="off" required />       
+               
+             </div>
+             <div class="form-group">  
+               <input type="number" class="form-control" name="userage"  placeholder="Age" autocomplete="off" required />
+            
+             </div>
+             <div class="form-group">
+             <input type="email" class="form-control" ng-model="user.email" name="email"
+             placeholder=" Email Address" autocomplete="off" required>
+             </div>
+             <div class="form-group">
+           
+             <input type="number" class="form-control" name="telephone" placeholder="Telephone" autocomplete="off" required />
+             </div>
+    
+             <div class="inputBox w100">
+             <textarea name="" placeholder="Message" required></textarea>
+               </div>
+               
+               <div class="inputBox w100">
+                <textarea name="" placeholder="The complaint is regarding:" required></textarea>
+                
+             </div>
+             <div class="inputBox w100">
+                <textarea name="" placeholder="The specific details of the complaint:" required></textarea>
+                
+             </div>
+             <div class="inputBox w100">
+               <input ng-disabled="Cofrm.$invalid" class="btn btn-warning" onclick="alert('Send Message Success')" type="submit" ng-click="call()" value="Submit">
+               <input type="reset" value="reset">
+         
+              </div>
+            </div>
+         </form> 
+         </div>
+    </div>
+    <script>
+      var complain = angular.module("complainApp", []);
+
+/* Show Submit Values */  
+contact.controller("complainCtrl", function ($scope) {
+    $scope.submit_success = false;
+    $scope.call = function () {
+        $scope.submit_success = true;
+    }
+  }
+  
+);
+   </script>
+    </section>    

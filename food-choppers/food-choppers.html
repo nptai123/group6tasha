@@ -1,0 +1,15 @@
+<h1 class="tuade">Food Choppers</h1>
+<div class="product-class">
+    <div ng-repeat="pro in product">
+        <div class="product-item">
+            <a href="#!/food-chopper/{{pro.id}}">
+                <div class="item-img">
+                    <img ng-src="{{pro.hinhanh}}">
+                </div>
+                <a href="#!/food-chopper/{{pro.id}}" class="ten">{{pro.tenhang}}</a>
+                <hr>
+                <p class="gia">{{pro.giatien}}</p>
+            </a>
+        </div>
+    </div>
+</div>
